@@ -47,9 +47,9 @@ public class QueryStudentDemo {
 			displayStudents(theStudents);
 			
 			// query students where email LIKE '%gmail.com'
-			theStudents = session.createQuery("from Student s where" + " s.email LIKE '%gmail.com'").getResultList();
+			theStudents = session.createQuery("from Student s where" + " s.email LIKE '%sysiak.pl'").getResultList();
 
-			System.out.println("\n\nStudents whose email ends with gmail.com");			
+			System.out.println("\n\nStudents whose email ends with sysiak.pl");			
 			displayStudents(theStudents);
 			
 			
